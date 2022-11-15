@@ -1,0 +1,43 @@
+.fundo{
+  background-color: #5f9ea0;
+}
+
+
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.qrcode{
+  padding: 30px;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.4);
+}
+
+.input{
+  height: 38px;
+  border-radius: 15px;
+  max-width: 300px;
+  width: 100%;
+  margin: 24px 0;
+  padding: 8px;
+  outline: none;
+  color: black;
+  background-color: #ccf2f3;
+  border: 2px solid #55c8cc;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.4);
+}
+
+.button{
+  background-color: #0c4c4e;
+  border: 2px solid #07292b;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #fff;
+}
